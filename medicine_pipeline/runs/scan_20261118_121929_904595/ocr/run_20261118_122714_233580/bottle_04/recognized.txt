@@ -1,0 +1,9 @@
+1	1.000	得術泰
+2	0.999	注射
+3	0.850	0858
+4	0.998	Dynastat
+5	0.686	PAA
+6	0.976	Powder for Solutiont
+7	0.963	IV/IM
+8	0.949	Parecoxib (as parecot
+9	0.965	Read the package le

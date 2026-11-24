@@ -1,0 +1,162 @@
+{
+  "source_ocr": "C:\\Users\\scarl\\Desktop\\medicine_detection\\medicine_pipeline\\runs\\scan_20261118_120631_437051\\ocr\\run_20261118_120636_311339\\summary.json",
+  "database": "C:\\Users\\scarl\\Desktop\\medicine_detection\\medicine_pipeline\\sql\\medicine.sqlite3",
+  "min_confidence": 0.8,
+  "counts": {
+    "matched": 2,
+    "review": 2,
+    "not_found": 0,
+    "skipped": 0
+  },
+  "rois": [
+    {
+      "id": 1,
+      "image": "C:\\Users\\scarl\\Desktop\\medicine_detection\\medicine_pipeline\\runs\\scan_20261118_120631_437051\\rois\\01.png",
+      "ocr_status": "recognized",
+      "focus_status": "passed",
+      "method": "license",
+      "license_evidence": [
+        {
+          "line": 12,
+          "text": "衛署藥製字第030620號",
+          "confidence": 0.9985586404800415,
+          "parsed_license": "衛署藥製字第030620號",
+          "queried_licenses": [
+            "衛署藥製字第030620號"
+          ],
+          "candidate_ids": [
+            1012
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": 1012,
+          "name_zh": "\"中國化學\" 賜福樂信注射劑７５０公絲（希福辛）",
+          "name_en": "CEFUROXIME INJECTION 750MG",
+          "strength_text": "750 mg",
+          "company_text": "中國化學製藥股份有限公司台南三廠",
+          "license_no": "衛署藥製字第030620號",
+          "barcodes": []
+        }
+      ],
+      "status": "matched",
+      "reason": "unique_license_row"
+    },
+    {
+      "id": 2,
+      "image": "C:\\Users\\scarl\\Desktop\\medicine_detection\\medicine_pipeline\\runs\\scan_20261118_120631_437051\\rois\\02.png",
+      "ocr_status": "recognized",
+      "focus_status": "passed",
+      "method": "name",
+      "license_evidence": [],
+      "candidates": [
+        {
+          "id": 414,
+          "name_zh": "艾莫斯克靜脈乾粉注射劑",
+          "name_en": "AmoClav IV Powder for Injection \"CYH\"",
+          "strength_text": "600 mg",
+          "company_text": "中化裕民健康事業股份有限公司",
+          "license_no": "衛署藥製字第057877號",
+          "barcodes": [],
+          "name_evidence": [
+            {
+              "line": 2,
+              "text": "艾莫斯克",
+              "confidence": 0.9995996952056885,
+              "field": "name_zh"
+            }
+          ]
+        },
+        {
+          "id": 415,
+          "name_zh": "艾莫斯克靜脈乾粉注射劑",
+          "name_en": "AmoClav IV Powder for Injection \"CYH\"",
+          "strength_text": "1.2 g",
+          "company_text": "中化裕民健康事業股份有限公司",
+          "license_no": "衛署藥製字第057877號",
+          "barcodes": [],
+          "name_evidence": [
+            {
+              "line": 2,
+              "text": "艾莫斯克",
+              "confidence": 0.9995996952056885,
+              "field": "name_zh"
+            }
+          ]
+        }
+      ],
+      "status": "review",
+      "reason": "name_candidates"
+    },
+    {
+      "id": 3,
+      "image": "C:\\Users\\scarl\\Desktop\\medicine_detection\\medicine_pipeline\\runs\\scan_20261118_120631_437051\\rois\\03.png",
+      "ocr_status": "recognized",
+      "focus_status": "passed",
+      "method": "license",
+      "license_evidence": [
+        {
+          "line": 13,
+          "text": "衛署藥製字第049651號",
+          "confidence": 0.9999193549156189,
+          "parsed_license": "衛署藥製字第049651號",
+          "queried_licenses": [
+            "衛署藥製字第049651號"
+          ],
+          "candidate_ids": [
+            1013
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": 1013,
+          "name_zh": "佐淨菌靜脈輸液 5 毫克/毫升",
+          "name_en": "Leflodal I.V. Solution for Infusion 5mg/ml",
+          "strength_text": "5 mg/mL",
+          "company_text": "中國化學製藥股份有限公司新豐工廠",
+          "license_no": "衛署藥製字第049651號",
+          "barcodes": []
+        }
+      ],
+      "status": "matched",
+      "reason": "unique_license_row"
+    },
+    {
+      "id": 4,
+      "image": "C:\\Users\\scarl\\Desktop\\medicine_detection\\medicine_pipeline\\runs\\scan_20261118_120631_437051\\rois\\04.png",
+      "ocr_status": "recognized",
+      "focus_status": "passed",
+      "method": "name",
+      "license_evidence": [],
+      "candidates": [
+        {
+          "id": 898,
+          "name_zh": "得術泰注射劑40毫克",
+          "name_en": "DYNASTAT 40MG POWDER FOR SOLUTION FOR INJECTION",
+          "strength_text": "40 mg",
+          "company_text": "輝瑞大藥廠股份有限公司",
+          "license_no": "衛署藥輸字第024143號",
+          "barcodes": [],
+          "name_evidence": [
+            {
+              "line": 1,
+              "text": "得術泰",
+              "confidence": 0.999631941318512,
+              "field": "name_zh"
+            },
+            {
+              "line": 5,
+              "text": "Dynastat",
+              "confidence": 0.9965304136276245,
+              "field": "name_en"
+            }
+          ]
+        }
+      ],
+      "status": "review",
+      "reason": "name_candidates"
+    }
+  ]
+}

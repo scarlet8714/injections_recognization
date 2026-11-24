@@ -1,0 +1,774 @@
+{
+  "started_at": "2026-11-18T12:46:02.906095+08:00",
+  "status": "completed",
+  "camera": {
+    "ok": true,
+    "index": 0,
+    "name": "Usb HDCamera",
+    "device_path": "\\\\?\\usb#vid_eba4&pid_1303&mi_00#6&162db72f&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
+    "minimum": 0,
+    "maximum": 1023,
+    "step": 1,
+    "default": 192,
+    "capabilities": 3,
+    "value": 676,
+    "flags": 1
+  },
+  "image_size": [
+    1920,
+    1080
+  ],
+  "roi_source": "roi_config",
+  "detections": null,
+  "boxes": [
+    [
+      220,
+      104,
+      522,
+      708
+    ],
+    [
+      610,
+      53,
+      912,
+      685
+    ],
+    [
+      909,
+      11,
+      1408,
+      735
+    ],
+    [
+      1401,
+      220,
+      1658,
+      693
+    ]
+  ],
+  "focus_region": [
+    0.15,
+    0.45,
+    0.85,
+    0.9
+  ],
+  "metric": "laplacian_variance",
+  "search": {
+    "strategy": "shared_sparse_frames",
+    "method": "fast-autofocus",
+    "scan_focus_commands": 9,
+    "verification_focus_commands": 0,
+    "reused_scores": 27,
+    "coarse_samples": 9,
+    "settle_seconds": 0.15,
+    "discard_frames": 1,
+    "samples_per_value": 3,
+    "max_sample_spread": 0.2,
+    "max_retries": 0,
+    "autofocus": {
+      "value": 676,
+      "elapsed_seconds": 1.0256915000500157,
+      "radius_steps": 72
+    },
+    "initial_range": [
+      604,
+      748
+    ],
+    "start_focus": 676
+  },
+  "rois": [
+    {
+      "id": 1,
+      "box": [
+        220,
+        104,
+        522,
+        708
+      ],
+      "status": "completed",
+      "curve": [
+        {
+          "focus": 676,
+          "readback": 676,
+          "score": 1199.3481491119255,
+          "sample_scores": [
+            1205.5830211859275,
+            1198.6238199477073,
+            1199.3481491119255
+          ],
+          "sample_spread": 0.0058024863284053445,
+          "retries": 0,
+          "stable": true,
+          "phase": 0,
+          "reused": false
+        },
+        {
+          "focus": 604,
+          "readback": 604,
+          "score": 143.6583625737275,
+          "sample_scores": [
+            83.2495480674848,
+            143.6583625737275,
+            204.05234096626907
+          ],
+          "sample_spread": 0.8409033120977317,
+          "retries": 0,
+          "stable": false,
+          "phase": 0,
+          "reused": false
+        },
+        {
+          "focus": 622,
+          "readback": 622,
+          "score": 808.6053291325321,
+          "sample_scores": [
+            723.7995545611282,
+            808.6053291325321,
+            868.9769891449258
+          ],
+          "sample_spread": 0.17954053646856782,
+          "retries": 0,
+          "stable": true,
+          "phase": 0,
+          "reused": false
+        },
+        {
+          "focus": 640,
+          "readback": 640,
+          "score": 1593.912402843046,
+          "sample_scores": [
+            1418.9418176934914,
+            1593.912402843046,
+            1676.787601550322
+          ],
+          "sample_spread": 0.16176910562770802,
+          "retries": 0,
+          "stable": true,
+          "phase": 0,
+          "reused": false
+        },
+        {
+          "focus": 658,
+          "readback": 658,
+          "score": 1842.559240070069,
+          "sample_scores": [
+            1745.3417618050732,
+            1842.559240070069,
+            1921.8200189561753
+          ],
+          "sample_spread": 0.09577887826520624,
+          "retries": 0,
+          "stable": true,
+          "phase": 0,
+          "reused": false
+        },
+        {
+          "focus": 694,
+          "readback": 694,
+          "score": 422.4624428327472,
+          "sample_scores": [
+            388.0838674843293,
+            422.4624428327472,
+            434.84354140815583
+          ],
+          "sample_spread": 0.11068362340161605,
+          "retries": 0,
+          "stable": true,
+          "phase": 0,
+          "reused": false
+        },
+        {
+          "focus": 712,
+          "readback": 712,
+          "score": 154.16895409947585,
+          "sample_scores": [
+            148.08015868381594,
+            155.69575642512845,
+            154.16895409947585
+          ],
+          "sample_spread": 0.04939773890143038,
+          "retries": 0,
+          "stable": true,
+          "phase": 0,
+          "reused": false
+        },
+        {
+          "focus": 730,
+          "readback": 730,
+          "score": 68.55088066653835,
+          "sample_scores": [
+            67.32531860352186,
+            68.74594502498772,
+            68.55088066653835
+          ],
+          "sample_spread": 0.02072367864063493,
+          "retries": 0,
+          "stable": true,
+          "phase": 0,
+          "reused": false
+        },
+        {
+          "focus": 748,
+          "readback": 748,
+          "score": 38.23365129229563,
+          "sample_scores": [
+            38.23365129229563,
+            36.555797318311846,
+            38.67222794239405
+          ],
+          "sample_spread": 0.042328612481644115,
+          "retries": 0,
+          "stable": true,
+          "phase": 0,
+          "reused": false
+        }
+      ],
+      "best_focus": 658,
+      "best_scan_score": 1842.559240070069,
+      "verified_score": 1842.559240070069,
+      "laplacian_variance": 1842.559240070069,
+      "tenengrad": 21873.357150451888,
+      "focus_box": [
+        265,
+        375,
+        476,
+        647
+      ],
+      "verification_spread": 0.09577887826520624,
+      "verification_retries": 0,
+      "capture_method": "scan_frame",
+      "image": "rois/01.png",
+      "focus_image": "focus/01.png",
+      "frame": "frames/01.png",
+      "searched_range": [
+        604,
+        748
+      ],
+      "best_at_range_edge": false
+    },
+    {
+      "id": 2,
+      "box": [
+        610,
+        53,
+        912,
+        685
+      ],
+      "status": "completed",
+      "curve": [
+        {
+          "focus": 676,
+          "readback": 676,
+          "score": 1931.442935761098,
+          "sample_scores": [
+            1931.442935761098,
+            1914.3742338201878,
+            1955.6137255676792
+          ],
+          "sample_spread": 0.02135164906191793,
+          "retries": 0,
+          "stable": true,
+          "phase": 0,
+          "reused": true
+        },
+        {
+          "focus": 604,
+          "readback": 604,
+          "score": 85.00999076904967,
+          "sample_scores": [
+            65.58458170342148,
+            85.00999076904967,
+            88.81466515475417
+          ],
+          "sample_spread": 0.27326298051770015,
+          "retries": 0,
+          "stable": false,
+          "phase": 0,
+          "reused": true
+        },
+        {
+          "focus": 622,
+          "readback": 622,
+          "score": 488.8674900187721,
+          "sample_scores": [
+            476.8073097071298,
+            488.8674900187721,
+            496.08008088823544
+          ],
+          "sample_spread": 0.039423302990275765,
+          "retries": 0,
+          "stable": true,
+          "phase": 0,
+          "reused": true
+        },
+        {
+          "focus": 640,
+          "readback": 640,
+          "score": 2308.7161442791407,
+          "sample_scores": [
+            2223.2255633756363,
+            2317.79813839945,
+            2308.7161442791407
+          ],
+          "sample_spread": 0.0409632753069965,
+          "retries": 0,
+          "stable": true,
+          "phase": 0,
+          "reused": true
+        },
+        {
+          "focus": 658,
+          "readback": 658,
+          "score": 3571.0059455693563,
+          "sample_scores": [
+            3510.4885304958916,
+            3571.0059455693563,
+            3616.404011029208
+          ],
+          "sample_spread": 0.029659844354145825,
+          "retries": 0,
+          "stable": true,
+          "phase": 0,
+          "reused": true
+        },
+        {
+          "focus": 694,
+          "readback": 694,
+          "score": 409.6574305785549,
+          "sample_scores": [
+            404.89005886534693,
+            416.32206502346855,
+            409.6574305785549
+          ],
+          "sample_spread": 0.027906258509643827,
+          "retries": 0,
+          "stable": true,
+          "phase": 0,
+          "reused": true
+        },
+        {
+          "focus": 712,
+          "readback": 712,
+          "score": 99.51373016463825,
+          "sample_scores": [
+            92.99755580023846,
+            101.5675722233952,
+            99.51373016463825
+          ],
+          "sample_spread": 0.08611893463322372,
+          "retries": 0,
+          "stable": true,
+          "phase": 0,
+          "reused": true
+        },
+        {
+          "focus": 730,
+          "readback": 730,
+          "score": 41.71225117716709,
+          "sample_scores": [
+            42.60381316980537,
+            41.71225117716709,
+            37.725414059398716
+          ],
+          "sample_spread": 0.09756798220813309,
+          "retries": 0,
+          "stable": true,
+          "phase": 0,
+          "reused": true
+        },
+        {
+          "focus": 748,
+          "readback": 748,
+          "score": 21.056767858787484,
+          "sample_scores": [
+            20.44642354570764,
+            21.76538672079943,
+            21.056767858787484
+          ],
+          "sample_spread": 0.026379263501835837,
+          "retries": 0,
+          "stable": true,
+          "phase": 0,
+          "reused": true
+        }
+      ],
+      "best_focus": 658,
+      "best_scan_score": 3571.0059455693563,
+      "verified_score": 3571.0059455693563,
+      "laplacian_variance": 3571.0059455693563,
+      "tenengrad": 29681.553225423326,
+      "focus_box": [
+        655,
+        337,
+        866,
+        621
+      ],
+      "verification_spread": 0.029659844354145825,
+      "verification_retries": 0,
+      "capture_method": "scan_frame",
+      "image": "rois/02.png",
+      "focus_image": "focus/02.png",
+      "frame": "frames/02.png",
+      "searched_range": [
+        604,
+        748
+      ],
+      "best_at_range_edge": false
+    },
+    {
+      "id": 3,
+      "box": [
+        909,
+        11,
+        1408,
+        735
+      ],
+      "status": "completed",
+      "curve": [
+        {
+          "focus": 676,
+          "readback": 676,
+          "score": 3240.961973959058,
+          "sample_scores": [
+            3224.5330391468447,
+            3252.241726660562,
+            3240.961973959058
+          ],
+          "sample_spread": 0.008549525645890064,
+          "retries": 0,
+          "stable": true,
+          "phase": 0,
+          "reused": true
+        },
+        {
+          "focus": 604,
+          "readback": 604,
+          "score": 30.344376862466362,
+          "sample_scores": [
+            22.9560339191157,
+            30.344376862466362,
+            33.739144233587375
+          ],
+          "sample_spread": 0.21566220628943347,
+          "retries": 0,
+          "stable": false,
+          "phase": 0,
+          "reused": true
+        },
+        {
+          "focus": 622,
+          "readback": 622,
+          "score": 125.32730701675811,
+          "sample_scores": [
+            119.54738834768091,
+            125.32730701675811,
+            127.69129779152951
+          ],
+          "sample_spread": 0.0649811253245842,
+          "retries": 0,
+          "stable": true,
+          "phase": 0,
+          "reused": true
+        },
+        {
+          "focus": 640,
+          "readback": 640,
+          "score": 452.8479930379692,
+          "sample_scores": [
+            444.3913532676131,
+            452.8479930379692,
+            478.394137895191
+          ],
+          "sample_spread": 0.07508653047011944,
+          "retries": 0,
+          "stable": true,
+          "phase": 0,
+          "reused": true
+        },
+        {
+          "focus": 658,
+          "readback": 658,
+          "score": 1499.1825115996512,
+          "sample_scores": [
+            1452.1895203810839,
+            1499.1825115996512,
+            1520.581423225003
+          ],
+          "sample_spread": 0.0456194641511285,
+          "retries": 0,
+          "stable": true,
+          "phase": 0,
+          "reused": true
+        },
+        {
+          "focus": 694,
+          "readback": 694,
+          "score": 4209.085676667507,
+          "sample_scores": [
+            4047.8626715662294,
+            4209.085676667507,
+            4268.122989218843
+          ],
+          "sample_spread": 0.05232973015341471,
+          "retries": 0,
+          "stable": true,
+          "phase": 0,
+          "reused": true
+        },
+        {
+          "focus": 712,
+          "readback": 712,
+          "score": 3419.9437399490084,
+          "sample_scores": [
+            3399.597857388699,
+            3428.8191596134716,
+            3419.9437399490084
+          ],
+          "sample_spread": 0.00854438097429291,
+          "retries": 0,
+          "stable": true,
+          "phase": 0,
+          "reused": true
+        },
+        {
+          "focus": 730,
+          "readback": 730,
+          "score": 1643.4454148378131,
+          "sample_scores": [
+            1643.4454148378131,
+            1648.8395894937607,
+            1642.5572542809598
+          ],
+          "sample_spread": 0.0038226613163303206,
+          "retries": 0,
+          "stable": true,
+          "phase": 0,
+          "reused": true
+        },
+        {
+          "focus": 748,
+          "readback": 748,
+          "score": 500.1155141404937,
+          "sample_scores": [
+            504.94097894729964,
+            500.1155141404937,
+            493.2004694958593
+          ],
+          "sample_spread": 0.023475595376435718,
+          "retries": 0,
+          "stable": true,
+          "phase": 0,
+          "reused": true
+        }
+      ],
+      "best_focus": 694,
+      "best_scan_score": 4209.085676667507,
+      "verified_score": 4209.085676667507,
+      "laplacian_variance": 4209.085676667507,
+      "tenengrad": 51450.76184901376,
+      "focus_box": [
+        983,
+        336,
+        1333,
+        662
+      ],
+      "verification_spread": 0.05232973015341471,
+      "verification_retries": 0,
+      "capture_method": "scan_frame",
+      "image": "rois/03.png",
+      "focus_image": "focus/03.png",
+      "frame": "frames/03.png",
+      "searched_range": [
+        604,
+        748
+      ],
+      "best_at_range_edge": false
+    },
+    {
+      "id": 4,
+      "box": [
+        1401,
+        220,
+        1658,
+        693
+      ],
+      "status": "completed",
+      "curve": [
+        {
+          "focus": 676,
+          "readback": 676,
+          "score": 857.6182034151168,
+          "sample_scores": [
+            836.4501936548621,
+            870.9052141867712,
+            857.6182034151168
+          ],
+          "sample_spread": 0.04017524394270778,
+          "retries": 0,
+          "stable": true,
+          "phase": 0,
+          "reused": true
+        },
+        {
+          "focus": 604,
+          "readback": 604,
+          "score": 1174.9784177439408,
+          "sample_scores": [
+            796.7297530994688,
+            1174.9784177439408,
+            1515.3172395504084
+          ],
+          "sample_spread": 0.6115750515917469,
+          "retries": 0,
+          "stable": false,
+          "phase": 0,
+          "reused": true
+        },
+        {
+          "focus": 622,
+          "readback": 622,
+          "score": 2678.288155266302,
+          "sample_scores": [
+            2523.7623540390196,
+            2678.288155266302,
+            2703.0414699003936
+          ],
+          "sample_spread": 0.06693794896895564,
+          "retries": 0,
+          "stable": true,
+          "phase": 0,
+          "reused": true
+        },
+        {
+          "focus": 640,
+          "readback": 640,
+          "score": 2486.9619753295865,
+          "sample_scores": [
+            2378.075756244262,
+            2486.9619753295865,
+            2513.9470720849636
+          ],
+          "sample_spread": 0.05463345125037358,
+          "retries": 0,
+          "stable": true,
+          "phase": 0,
+          "reused": true
+        },
+        {
+          "focus": 658,
+          "readback": 658,
+          "score": 1706.198790165369,
+          "sample_scores": [
+            1650.6551359252253,
+            1706.198790165369,
+            1718.6194153553713
+          ],
+          "sample_spread": 0.03983374025459175,
+          "retries": 0,
+          "stable": true,
+          "phase": 0,
+          "reused": true
+        },
+        {
+          "focus": 694,
+          "readback": 694,
+          "score": 361.8925264756422,
+          "sample_scores": [
+            333.8367334369976,
+            368.7980701377372,
+            361.8925264756422
+          ],
+          "sample_spread": 0.09660695964411628,
+          "retries": 0,
+          "stable": true,
+          "phase": 0,
+          "reused": true
+        },
+        {
+          "focus": 712,
+          "readback": 712,
+          "score": 145.37597848802523,
+          "sample_scores": [
+            150.74884365864872,
+            145.37597848802523,
+            143.36728324787973
+          ],
+          "sample_spread": 0.050775654186754275,
+          "retries": 0,
+          "stable": true,
+          "phase": 0,
+          "reused": true
+        },
+        {
+          "focus": 730,
+          "readback": 730,
+          "score": 63.30811902487423,
+          "sample_scores": [
+            61.66842488616099,
+            63.30811902487423,
+            66.02359250364016
+          ],
+          "sample_spread": 0.06879319247769769,
+          "retries": 0,
+          "stable": true,
+          "phase": 0,
+          "reused": true
+        },
+        {
+          "focus": 748,
+          "readback": 748,
+          "score": 37.302554012624626,
+          "sample_scores": [
+            35.30525120171202,
+            37.302554012624626,
+            37.81492205558075
+          ],
+          "sample_spread": 0.05019341707737467,
+          "retries": 0,
+          "stable": true,
+          "phase": 0,
+          "reused": true
+        }
+      ],
+      "best_focus": 622,
+      "best_scan_score": 2678.288155266302,
+      "verified_score": 2678.288155266302,
+      "laplacian_variance": 2678.288155266302,
+      "tenengrad": 44637.00431332872,
+      "focus_box": [
+        1439,
+        432,
+        1619,
+        645
+      ],
+      "verification_spread": 0.06693794896895564,
+      "verification_retries": 0,
+      "capture_method": "scan_frame",
+      "image": "rois/04.png",
+      "focus_image": "focus/04.png",
+      "frame": "frames/04.png",
+      "searched_range": [
+        604,
+        748
+      ],
+      "best_at_range_edge": false
+    }
+  ],
+  "restored": true,
+  "note": "Scan samples are shared by focus setting; each bottle selects its own best focus. Fixed ROIs require stationary objects. Coarse-to-fine search does not guarantee a global optimum. Focus values are device units, not calibrated distance.",
+  "restored_state": {
+    "ok": true,
+    "index": 0,
+    "name": "Usb HDCamera",
+    "device_path": "\\\\?\\usb#vid_eba4&pid_1303&mi_00#6&162db72f&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
+    "minimum": 0,
+    "maximum": 1023,
+    "step": 1,
+    "default": 192,
+    "capabilities": 3,
+    "value": 748,
+    "flags": 1
+  },
+  "finished_at": "2026-11-18T12:46:08.362645+08:00",
+  "elapsed_seconds": 5.455852699931711
+}

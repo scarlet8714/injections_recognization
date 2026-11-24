@@ -1,0 +1,6 @@
+names:
+  0: Class 0
+nc: 1
+path: C:\Users\scarl\Desktop\medicine_detection\dataset
+train: train/images
+val: valid/images

@@ -1,0 +1,39 @@
+{
+  "source_scan": "C:\\Users\\scarl\\Desktop\\medicine_detection\\medicine_pipeline\\runs\\scan_20261118_124602_906095\\focus_scan.json",
+  "total_seconds": 5.455852699931711,
+  "components_seconds": {
+    "autofocus_and_readback": 1.0256915000500157,
+    "per_focus_configured_wait": 1.3499999999999999,
+    "additional_frame_capture": 1.0393968999618666,
+    "manual_focus_control_and_readback": 0.06382369995117188,
+    "roi_scoring": 0.42700359981972724,
+    "png_saving": 1.1238552002469078,
+    "incremental_reports": 0.4037007004953921,
+    "restore_camera": 0.007496700040064752,
+    "other": 0.014884399366565049
+  },
+  "measurements_seconds": {
+    "incremental_reports": 0.4037007004953921,
+    "png_initial_full_frame": 0.0553717000875622,
+    "manual_set_and_readback": 0.06382369995117188,
+    "manual_capture": 2.3893968999618664,
+    "manual_configured_wait": 1.3499999999999999,
+    "roi_scoring": 0.42700359981972724,
+    "png_rois": 0.1437294001225382,
+    "png_focus": 0.027247700025327504,
+    "png_frames": 0.8975064000114799,
+    "restore_camera": 0.007496700040064752,
+    "final_report_after_scan_timer": 0.004232900100760162
+  },
+  "counts": {
+    "incremental_reports": 41,
+    "png_initial_full_frame": 1,
+    "manual_focus_commands": 9,
+    "manual_capture_batches": 9,
+    "png_rois": 4,
+    "png_focus": 4,
+    "png_frames": 4,
+    "final_report_after_scan_timer": 1
+  },
+  "timer_scope": "The original focus scan timer excludes startup; additional frame capture is time beyond configured settle intervals."
+}

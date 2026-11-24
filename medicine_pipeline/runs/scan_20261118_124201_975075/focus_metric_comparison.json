@@ -1,0 +1,369 @@
+{
+  "source_scan": "C:\\Users\\scarl\\Desktop\\medicine_detection\\medicine_pipeline\\runs\\scan_20261118_124201_975075\\focus_scan.json",
+  "same_source_frames": true,
+  "rois": [
+    {
+      "id": 1,
+      "laplacian_focus": 643,
+      "tenengrad_focus": 643,
+      "laplacian_image": "rois/01.png",
+      "tenengrad_image": "tenengrad_rois\\01.png",
+      "exact_same_crop": true,
+      "laplacian_selected_scores": {
+        "laplacian_variance": 1795.0012943349825,
+        "tenengrad": 21449.454687223108
+      },
+      "tenengrad_selected_scores": {
+        "laplacian_variance": 1795.0012943349825,
+        "tenengrad": 21449.454687223108
+      }
+    },
+    {
+      "id": 2,
+      "laplacian_focus": 661,
+      "tenengrad_focus": 661,
+      "laplacian_image": "rois/02.png",
+      "tenengrad_image": "tenengrad_rois\\02.png",
+      "exact_same_crop": true,
+      "laplacian_selected_scores": {
+        "laplacian_variance": 3347.180802103184,
+        "tenengrad": 28604.794631646815
+      },
+      "tenengrad_selected_scores": {
+        "laplacian_variance": 3347.180802103184,
+        "tenengrad": 28604.794631646815
+      }
+    },
+    {
+      "id": 3,
+      "laplacian_focus": 697,
+      "tenengrad_focus": 697,
+      "laplacian_image": "rois/03.png",
+      "tenengrad_image": "tenengrad_rois\\03.png",
+      "exact_same_crop": true,
+      "laplacian_selected_scores": {
+        "laplacian_variance": 4185.036227044269,
+        "tenengrad": 50965.29666879523
+      },
+      "tenengrad_selected_scores": {
+        "laplacian_variance": 4185.036227044269,
+        "tenengrad": 50965.29666879523
+      }
+    },
+    {
+      "id": 4,
+      "laplacian_focus": 625,
+      "tenengrad_focus": 625,
+      "laplacian_image": "rois/04.png",
+      "tenengrad_image": "tenengrad_rois\\04.png",
+      "exact_same_crop": true,
+      "laplacian_selected_scores": {
+        "laplacian_variance": 2735.1288213913544,
+        "tenengrad": 45998.29809894031
+      },
+      "tenengrad_selected_scores": {
+        "laplacian_variance": 2735.1288213913544,
+        "tenengrad": 45998.29809894031
+      }
+    }
+  ],
+  "curve": [
+    {
+      "focus": 679,
+      "rois": [
+        {
+          "id": 1,
+          "laplacian": 980.3352118261436,
+          "laplacian_stable": true,
+          "tenengrad": 14680.298741804005,
+          "tenengrad_stable": true
+        },
+        {
+          "id": 2,
+          "laplacian": 1328.8747080084493,
+          "laplacian_stable": true,
+          "tenengrad": 17402.52349927042,
+          "tenengrad_stable": true
+        },
+        {
+          "id": 3,
+          "laplacian": 3733.7168790943333,
+          "laplacian_stable": true,
+          "tenengrad": 47581.12297786292,
+          "tenengrad_stable": true
+        },
+        {
+          "id": 4,
+          "laplacian": 680.6777558521405,
+          "laplacian_stable": true,
+          "tenengrad": 17120.18909420097,
+          "tenengrad_stable": true
+        }
+      ]
+    },
+    {
+      "focus": 607,
+      "rois": [
+        {
+          "id": 1,
+          "laplacian": 130.18116202456588,
+          "laplacian_stable": false,
+          "tenengrad": 4176.792911571859,
+          "tenengrad_stable": false
+        },
+        {
+          "id": 2,
+          "laplacian": 106.36841221735294,
+          "laplacian_stable": false,
+          "tenengrad": 5159.536258441074,
+          "tenengrad_stable": true
+        },
+        {
+          "id": 3,
+          "laplacian": 30.777507821956604,
+          "laplacian_stable": false,
+          "tenengrad": 2235.473002696183,
+          "tenengrad_stable": true
+        },
+        {
+          "id": 4,
+          "laplacian": 1125.639855885102,
+          "laplacian_stable": false,
+          "tenengrad": 27073.28276266042,
+          "tenengrad_stable": false
+        }
+      ]
+    },
+    {
+      "focus": 625,
+      "rois": [
+        {
+          "id": 1,
+          "laplacian": 1031.6341704760061,
+          "laplacian_stable": true,
+          "tenengrad": 14303.323196881092,
+          "tenengrad_stable": true
+        },
+        {
+          "id": 2,
+          "laplacian": 814.020165306483,
+          "laplacian_stable": true,
+          "tenengrad": 13763.819131969189,
+          "tenengrad_stable": true
+        },
+        {
+          "id": 3,
+          "laplacian": 173.60157231836442,
+          "laplacian_stable": true,
+          "tenengrad": 5165.055005676174,
+          "tenengrad_stable": true
+        },
+        {
+          "id": 4,
+          "laplacian": 2735.1288213913544,
+          "laplacian_stable": true,
+          "tenengrad": 45998.29809894031,
+          "tenengrad_stable": true
+        }
+      ]
+    },
+    {
+      "focus": 643,
+      "rois": [
+        {
+          "id": 1,
+          "laplacian": 1795.0012943349825,
+          "laplacian_stable": true,
+          "tenengrad": 21449.454687223108,
+          "tenengrad_stable": true
+        },
+        {
+          "id": 2,
+          "laplacian": 2901.219442476766,
+          "laplacian_stable": true,
+          "tenengrad": 26698.326275068717,
+          "tenengrad_stable": true
+        },
+        {
+          "id": 3,
+          "laplacian": 647.8842998267455,
+          "laplacian_stable": true,
+          "tenengrad": 13194.156555981268,
+          "tenengrad_stable": true
+        },
+        {
+          "id": 4,
+          "laplacian": 2349.879893036325,
+          "laplacian_stable": true,
+          "tenengrad": 42009.803077906174,
+          "tenengrad_stable": true
+        }
+      ]
+    },
+    {
+      "focus": 661,
+      "rois": [
+        {
+          "id": 1,
+          "laplacian": 1758.846182704958,
+          "laplacian_stable": true,
+          "tenengrad": 21263.042388800284,
+          "tenengrad_stable": true
+        },
+        {
+          "id": 2,
+          "laplacian": 3347.180802103184,
+          "laplacian_stable": true,
+          "tenengrad": 28604.794631646815,
+          "tenengrad_stable": true
+        },
+        {
+          "id": 3,
+          "laplacian": 1959.433990141068,
+          "laplacian_stable": true,
+          "tenengrad": 30852.888835674756,
+          "tenengrad_stable": true
+        },
+        {
+          "id": 4,
+          "laplacian": 1456.9497811547822,
+          "laplacian_stable": true,
+          "tenengrad": 30114.458703871347,
+          "tenengrad_stable": true
+        }
+      ]
+    },
+    {
+      "focus": 697,
+      "rois": [
+        {
+          "id": 1,
+          "laplacian": 308.40375790982944,
+          "laplacian_stable": true,
+          "tenengrad": 6838.824667729931,
+          "tenengrad_stable": true
+        },
+        {
+          "id": 2,
+          "laplacian": 247.6330846773692,
+          "laplacian_stable": true,
+          "tenengrad": 7210.65991380773,
+          "tenengrad_stable": true
+        },
+        {
+          "id": 3,
+          "laplacian": 4185.036227044269,
+          "laplacian_stable": true,
+          "tenengrad": 50965.29666879523,
+          "tenengrad_stable": true
+        },
+        {
+          "id": 4,
+          "laplacian": 288.7123096723312,
+          "laplacian_stable": true,
+          "tenengrad": 8208.594280845626,
+          "tenengrad_stable": true
+        }
+      ]
+    },
+    {
+      "focus": 715,
+      "rois": [
+        {
+          "id": 1,
+          "laplacian": 116.8383936994388,
+          "laplacian_stable": true,
+          "tenengrad": 3528.7363104731526,
+          "tenengrad_stable": true
+        },
+        {
+          "id": 2,
+          "laplacian": 69.95640304431453,
+          "laplacian_stable": true,
+          "tenengrad": 3824.6401303064235,
+          "tenengrad_stable": true
+        },
+        {
+          "id": 3,
+          "laplacian": 2909.9615343989963,
+          "laplacian_stable": true,
+          "tenengrad": 39397.48279409678,
+          "tenengrad_stable": true
+        },
+        {
+          "id": 4,
+          "laplacian": 109.43876185169796,
+          "laplacian_stable": true,
+          "tenengrad": 4053.6535491772725,
+          "tenengrad_stable": true
+        }
+      ]
+    },
+    {
+      "focus": 733,
+      "rois": [
+        {
+          "id": 1,
+          "laplacian": 57.78403354611494,
+          "laplacian_stable": true,
+          "tenengrad": 2182.238348396243,
+          "tenengrad_stable": true
+        },
+        {
+          "id": 2,
+          "laplacian": 32.637651795864706,
+          "laplacian_stable": true,
+          "tenengrad": 2522.555159659303,
+          "tenengrad_stable": true
+        },
+        {
+          "id": 3,
+          "laplacian": 1177.5242657100855,
+          "laplacian_stable": true,
+          "tenengrad": 21237.7446253725,
+          "tenengrad_stable": true
+        },
+        {
+          "id": 4,
+          "laplacian": 50.19679663829301,
+          "laplacian_stable": true,
+          "tenengrad": 2456.437935992332,
+          "tenengrad_stable": true
+        }
+      ]
+    },
+    {
+      "focus": 751,
+      "rois": [
+        {
+          "id": 1,
+          "laplacian": 31.25786445431837,
+          "laplacian_stable": true,
+          "tenengrad": 1482.763459152933,
+          "tenengrad_stable": true
+        },
+        {
+          "id": 2,
+          "laplacian": 18.832761420977004,
+          "laplacian_stable": true,
+          "tenengrad": 1787.9982014998811,
+          "tenengrad_stable": true
+        },
+        {
+          "id": 3,
+          "laplacian": 329.76553279275123,
+          "laplacian_stable": true,
+          "tenengrad": 8570.453118348234,
+          "tenengrad_stable": true
+        },
+        {
+          "id": 4,
+          "laplacian": 31.918067905585964,
+          "laplacian_stable": true,
+          "tenengrad": 1819.3146599925449,
+          "tenengrad_stable": true
+        }
+      ]
+    }
+  ]
+}

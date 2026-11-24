@@ -1,0 +1,11 @@
+1	1.000	得術泰
+2	0.925	Phizer
+3	0.997	注射
+4	0.822	0858
+5	0.997	Dynastat
+6	0.661	PA
+7	0.997	Powder for Solutiont
+8	0.974	IV/IM
+9	0.162	2
+10	0.979	Parecoxib (as parect
+11	0.955	Read the package l

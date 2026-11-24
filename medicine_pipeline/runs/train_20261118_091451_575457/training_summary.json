@@ -1,0 +1,49 @@
+{
+  "checkpoint": "C:\\Users\\scarl\\Desktop\\medicine_detection\\medicine_pipeline\\runs\\train_20261118_091451_575457\\fit\\weights\\last.pt",
+  "pretrained": "C:\\Users\\scarl\\Desktop\\medicine_detection\\medicine_pipeline\\models\\yolo11n.pt",
+  "dataset": "C:\\Users\\scarl\\Desktop\\medicine_detection\\dataset",
+  "image_size": 640,
+  "device": "cpu",
+  "epochs_completed": 13,
+  "confidence": 0.4,
+  "nms_iou": 0.45,
+  "match_iou": 0.5,
+  "candidates": [
+    {
+      "checkpoint": "C:\\Users\\scarl\\Desktop\\medicine_detection\\medicine_pipeline\\runs\\train_20261118_091451_575457\\fit\\weights\\best.pt",
+      "operating_point": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 10,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "metrics": {
+        "metrics/precision(B)": 0.0033333333333333335,
+        "metrics/recall(B)": 1.0,
+        "metrics/mAP50(B)": 0.995,
+        "metrics/mAP50-95(B)": 0.8720972222222223,
+        "fitness": 0.8720972222222223
+      }
+    },
+    {
+      "checkpoint": "C:\\Users\\scarl\\Desktop\\medicine_detection\\medicine_pipeline\\runs\\train_20261118_091451_575457\\fit\\weights\\last.pt",
+      "operating_point": {
+        "tp": 10,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "metrics": {
+        "metrics/precision(B)": 0.990278915392155,
+        "metrics/recall(B)": 1.0,
+        "metrics/mAP50(B)": 0.995,
+        "metrics/mAP50-95(B)": 0.7437269841269842,
+        "fitness": 0.7437269841269842
+      }
+    }
+  ]
+}

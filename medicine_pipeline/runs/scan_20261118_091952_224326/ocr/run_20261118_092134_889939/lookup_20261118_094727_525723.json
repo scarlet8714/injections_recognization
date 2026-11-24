@@ -1,0 +1,136 @@
+{
+  "source_ocr": "C:\\Users\\scarl\\Desktop\\medicine_detection\\medicine_pipeline\\runs\\scan_20261118_091952_224326\\ocr\\run_20261118_092134_889939\\summary.json",
+  "database": "C:\\Users\\scarl\\Desktop\\medicine_detection\\medicine_pipeline\\sql\\medicine.sqlite3",
+  "min_confidence": 0.8,
+  "counts": {
+    "matched": 0,
+    "review": 2,
+    "not_found": 2,
+    "skipped": 0
+  },
+  "rois": [
+    {
+      "id": 1,
+      "image": "C:\\Users\\scarl\\Desktop\\medicine_detection\\medicine_pipeline\\runs\\scan_20261118_091952_224326\\rois\\01.png",
+      "ocr_status": "recognized",
+      "focus_status": "passed",
+      "method": null,
+      "license_evidence": [
+        {
+          "line": 12,
+          "text": "衛署藥製字第030620號",
+          "confidence": 0.9981645345687866,
+          "parsed_license": "衛署藥製字第030620號",
+          "queried_licenses": [
+            "衛署藥製字第030620號"
+          ],
+          "candidate_ids": []
+        }
+      ],
+      "candidates": [],
+      "status": "not_found",
+      "reason": "license_not_found"
+    },
+    {
+      "id": 2,
+      "image": "C:\\Users\\scarl\\Desktop\\medicine_detection\\medicine_pipeline\\runs\\scan_20261118_091952_224326\\rois\\02.png",
+      "ocr_status": "recognized",
+      "focus_status": "passed",
+      "method": "license",
+      "license_evidence": [
+        {
+          "line": 11,
+          "text": "衛署藥製字第057877",
+          "confidence": 0.9684821963310242,
+          "parsed_license": "衛署藥製字第057877",
+          "queried_licenses": [
+            "衛署藥製字第057877號"
+          ],
+          "candidate_ids": [
+            414,
+            415
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": 414,
+          "name_zh": "艾莫斯克靜脈乾粉注射劑",
+          "name_en": "AmoClav IV Powder for Injection \"CYH\"",
+          "strength_text": "600 mg",
+          "company_text": "中化裕民健康事業股份有限公司",
+          "license_no": "衛署藥製字第057877號",
+          "barcodes": []
+        },
+        {
+          "id": 415,
+          "name_zh": "艾莫斯克靜脈乾粉注射劑",
+          "name_en": "AmoClav IV Powder for Injection \"CYH\"",
+          "strength_text": "1.2 g",
+          "company_text": "中化裕民健康事業股份有限公司",
+          "license_no": "衛署藥製字第057877號",
+          "barcodes": []
+        }
+      ],
+      "status": "review",
+      "reason": "multiple_license_rows"
+    },
+    {
+      "id": 3,
+      "image": "C:\\Users\\scarl\\Desktop\\medicine_detection\\medicine_pipeline\\runs\\scan_20261118_091952_224326\\rois\\03.png",
+      "ocr_status": "recognized",
+      "focus_status": "passed",
+      "method": null,
+      "license_evidence": [
+        {
+          "line": 13,
+          "text": "衛署藥製字第049651號",
+          "confidence": 0.9996987581253052,
+          "parsed_license": "衛署藥製字第049651號",
+          "queried_licenses": [
+            "衛署藥製字第049651號"
+          ],
+          "candidate_ids": []
+        }
+      ],
+      "candidates": [],
+      "status": "not_found",
+      "reason": "license_not_found"
+    },
+    {
+      "id": 4,
+      "image": "C:\\Users\\scarl\\Desktop\\medicine_detection\\medicine_pipeline\\runs\\scan_20261118_091952_224326\\rois\\04.png",
+      "ocr_status": "recognized",
+      "focus_status": "passed",
+      "method": "name",
+      "license_evidence": [],
+      "candidates": [
+        {
+          "id": 898,
+          "name_zh": "得術泰注射劑40毫克",
+          "name_en": "DYNASTAT 40MG POWDER FOR SOLUTION FOR INJECTION",
+          "strength_text": "40 mg",
+          "company_text": "輝瑞大藥廠股份有限公司",
+          "license_no": "衛署藥輸字第024143號",
+          "barcodes": [],
+          "name_evidence": [
+            {
+              "line": 1,
+              "text": "得術泰",
+              "confidence": 0.9998254179954529,
+              "field": "name_zh"
+            },
+            {
+              "line": 4,
+              "text": "Dynastat",
+              "confidence": 0.9985020756721497,
+              "field": "name_en"
+            }
+          ]
+        }
+      ],
+      "status": "review",
+      "reason": "name_candidates"
+    }
+  ]
+}
